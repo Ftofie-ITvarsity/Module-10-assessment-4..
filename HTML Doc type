@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <style>
+    body { font-family: Arial; background:#f4f4f4; padding:20px; }
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:15px; }
+    a img { width:100%; border-radius:10px; }
+  </style>
+</head>
+<body>
+  <h1>Image Gallery</h1>
+  <div class="gallery">
+    <a href="boat.html"><img src="Images/boat.jpg"></a>
+    <a href="cablecar.html"><img src="Images/cablecar.jpg"></a>
+    <a href="city.html"><img src="Images/city.jpg"></a>
+    <a href="plane.html"><img src="Images/plane.jpg"></a>
+    <a href="plane2.html"><img src="Images/plane2.jpg"></a>
+    <a href="truck.html"><img src="Images/truck.jpg"></a>
+    <a href="yacht.html"><img src="Images/yacht.jpg"></a>
+  </div>
+</body>
+</html>
